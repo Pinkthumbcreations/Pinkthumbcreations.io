@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pink Thumb Creations</title>
+    <style>
+        body {
+            background-color: #f2ede4;
+            font-family: 'Georgia', serif;
+            color: #3a2e2a;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+        }
+        header img {
+            max-width: 200px;
+        }
+        h2 {
+            color: #c96e52;
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 5px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .gallery-item {
+            width: 200px;
+            background: white;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .gallery-item img {
+            width: 100%;
+            border-radius: 6px;
+        }
+        .sold {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Pink Thumb Creations Logo">
+        <h1>Pink Thumb Creations</h1>
+    </header>
+
+    <section>
+        <h2>🎨 Paintings Gallery</h2>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="painting1.jpg" alt="Painting">
+                <p>Marshmallow Dance</p>
+            </div>
+            <div class="gallery-item">
+                <img src="painting2.jpg" alt="Painting">
+                <p>Dapper Frog<br><span class="sold">SOLD</span></p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>🧶 Crochet Corner</h2>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="crochet1.jpg" alt="Crochet">
+                <p>Blue Whale Keychain</p>
+            </div>
+            <div class="gallery-item">
+                <img src="crochet2.jpg" alt="Crochet">
+                <p>Candy Corn Keychain<br><span class="sold">SOLD</span></p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>🪵 Woodburning</h2>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="wood1.jpg" alt="Woodburning">
+                <p>King Tiger Taekwondo</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>🐚 Clay Creations</h2>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="clay1.jpg" alt="Clay Sculpture">
+                <p>Bear Sculpture</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>📬 Contact</h2>
+        <p>Email: <a href="mailto:pinkthumbcreations@gmail.com">pinkthumbcreations@gmail.com</a></p>
+    </section>
+</body>
+</html>
